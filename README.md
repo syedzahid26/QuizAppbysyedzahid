@@ -1,1 +1,2 @@
 # QuizAppbysyedzahid
+Author:Syed Zahid
