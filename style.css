@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.start{
+    padding: 4px 12px;
+    background-color: green;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.quiz{
+    width: 100%;
+    height: 100%;
+    background-color: #e4eee9;
+background-image: linear-gradient(315deg, #e4eee9 0%, #93a5ce 74%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:30px;
+}
+.quizWrapper{
+    width:500px;
+    height: 300px;
+    border-radius: 20px;
+   background-color: #44b09e;
+background-image: linear-gradient(315deg, #44b09e 0%, #e0d2c7 74%);
+     display: flex;
+    flex-direction: column;
+align-items: left;
+justify-content: center;
+padding: 30px;
+    gap:20px;
+
+    display: none;
+}
+.quizWrapper ul  {
+    text-decoration: none;
+    padding: 0px 12px;
+    text-transform: none;
+    list-style: none;
+    margin-top: 10px;
+    font-size: 18px;
+   
+}
+.submit{
+    background-color: green;
+    
+    border: none;
+    outline: none;
+     padding: 4px 12px;
+    background-color: green;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 700;
+    padding:4px 12px;
+    width: fit-content;
+    margin-left: 180px;
+}
+.score{
+    background-color: yellow;
+    font-weight: 700;
+    padding: 12px;
+    display: none;    
+}
+.top{
+    display: flex;
+    flex-direction: column;
+  
+    font-size: 18px;
+    font-weight: 600;
+    
+}
+.rules{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+      background-color: #ffff;
+    padding: 20px 30px 10px 30px;
+    border-radius: 5px;
+}
+.red{
+    color: red;
+}
+
+ .text{
+ background-color:cadetblue;
+    padding: 5px 10px;
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+ gap:5px;
+    width: fit-content;
+    margin-left: 130px;
+    border-radius: 10px;
+    
+}
+.text .timer{
+    color: red;
+    background-color: black;
+    padding: 2px 5px;
+    border-radius: 10px;
+
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="quiz">
+        <div class="top">
+            <div class="rules">
+                <div class="heading">Rules of the Quiz</div>
+                <hr>
+                <span>1: You have only <span class="red">10 Seconds </span>per each question.</span>
+                <span>2:You'll get rewards on the basis of your correct answers</span>
+                <span>3:There will be no negative marking</span>
+            </div>
+            <button class="start" onclick="startQuiz()">START</button>
+        </div>
+
+
+
+
+        <h1 class="score"></h1>
+        <h1 class="worng"></h1>
+        <div class="quizWrapper">
+            <div class="text">Time Left: <span class="timer"></span></div>
+
+            <h2 class="que"></h2>
+            <ul>
+                <li>
+                    <input type="radio" class="options" id="option1" name="radiobtn">
+                    <label for="option1" id="ans1"></label>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <input type="radio" class="options" id="option2" name="radiobtn">
+                    <label for="option2" id="ans2"></label>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <input type="radio" class="options" id="option3" name="radiobtn">
+                    <label for="option3" id="ans3"></label>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <input type="radio" class="options" id="option4" name="radiobtn">
+                    <label for="option4" id="ans4"></label>
+                </li>
+            </ul>
+            <button class="submit" onclick="submitAns()">Submit</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
